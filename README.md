@@ -1,12 +1,17 @@
 # WordPerfect Filter for Windows Search
 
-This is a simple filter to let Windows Search index WordPerfect files. If you
-use WordPerfect for DOS on a modern Windows machine, then this will let
-you find your documents when you seach in Windows Explorer.
+This is a simple filter to let Windows Search index WordPerfect files.
+
+If you use WordPerfect for DOS on a modern Windows machine, then this will
+let you find your documents when you search for them in Windows Explorer or
+the Start Menu.
+
+![Screenshot 2022-04-25 131532](https://user-images.githubusercontent.com/123814/165167694-899558d7-e5e6-44ad-a460-d55e03ed81ce.png)
 
 # How?
 
-Using libwpd, the same library LibreOffice uses to open WordPerfect files.
+Using [libwpd](http://libwpd.sourceforge.net/), the same library LibreOffice
+uses to open WordPerfect files.
 
 # Why?
 
@@ -17,11 +22,11 @@ software.
 
 ## Official Filter
 
-- Isn't there an official WordPerfect filter?
+- Isn't there an official WordPerfect search filter?
 
-Yes, but it doesn't read WP6 DOS files (even though they claim it does).
+Yes, but it doesn't read WordPerfect6 DOS files (even though they claim it does).
 
-[https://www.wordperfect.com/en/pages/items/8800095.html]
+https://www.wordperfect.com/en/pages/items/8800095.html
 
 # Installation
 
@@ -29,6 +34,8 @@ Put the DLL into `C:\Windows\System32`, then register it. Open a command prompt
 as Administrator, and then type:
 
 `regsvr32 c:\Windows\System32\wpdfilt64.dll`
+
+You should get a message that registration was successful.
 
 You probably need to restart the Windows Search service, or just reboot. If
 that worked, go to your Documents folder and try searching for something in
