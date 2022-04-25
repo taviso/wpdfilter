@@ -1,0 +1,3 @@
+[submodule "libwpd"]
+	path = libwpd
+	url = https://git.code.sf.net/p/libwpd/code
