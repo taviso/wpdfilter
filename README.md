@@ -2,7 +2,7 @@
 
 This is a simple filter to let Windows Search index WordPerfect files.
 
-If you use WordPerfect for DOS on a modern Windows machine, then this will
+If you use WordPerfect for UNIX or DOS on a modern Windows machine, then this will
 let you find your documents when you search for them in Windows Explorer or
 the Start Menu.
 
@@ -15,16 +15,14 @@ uses to open WordPerfect files.
 
 # Why?
 
-There are still people actively using WordPerfect for DOS.
-
-I use it because it is the most complete terminal-based word processing
-software.
+I use [WordPerfect for UNIX](https://wpunix.com) it because it is the most complete terminal-based
+word processoe.
 
 ## Official Filter
 
 - Isn't there an official WordPerfect search filter?
 
-Yes, but it doesn't read WordPerfect6 DOS files (even though they claim it does).
+Yes, but it doesn't read WordPerfect 5.x/6.x files (even though they claim it does).
 
 https://www.wordperfect.com/en/pages/items/8800095.html
 
@@ -39,7 +37,7 @@ You should get a message that registration was successful.
 
 You probably need to restart the Windows Search service, or just reboot. If
 that worked, go to your Documents folder and try searching for something in
-explorer. It should now be able to see the contents of your `.wpd` files.
+explorer. It should now be able to see the contents of your `.wp` files.
 
 # Uninstallation
 
