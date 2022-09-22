@@ -16,7 +16,7 @@ uses to open WordPerfect files.
 # Why?
 
 I use [WordPerfect for UNIX](https://wpunix.com) it because it is the most complete terminal-based
-word processoe.
+word processor.
 
 ## Official Filter
 
